@@ -1,0 +1,81 @@
+
+html{
+    scroll-behavior: smooth;  
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 50vh;
+}
+
+.nav-item .nav-link::after{
+    content: "";
+    width: 0;
+    background-color:#3e64ff;
+    height: 0.2rem;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+    font-weight: 1000;
+
+}
+.nav-item .nav-link:hover::after{
+    width: 100%;
+    
+}
+.nav-item .nav-link:hover{
+    font-size: 22px;
+    transition: 1.9ms;
+}
+
+.span-1{
+    display: inline-block;
+    width: 10rem;
+  
+}
+.span-2{
+    display: inline-block;
+    width: 10rem;
+}
+.e-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #3e64ff;
+    line-height: 2.5rem;
+    color: white;
+    padding-left:0.5rem;   
+}
+.s-box{
+    width: 22rem;
+    height: 21rem;
+}
+.svg{
+    height: 8rem;
+    width: 8rem;
+}
+
+.s-box:hover{
+    background-color: #3e64ff;
+    transition: 0.5s;
+    color: white;
+}
+.p-image{
+    height: 21rem;
+    width: 27rem;
+}
+.contact-box{
+    text-align: center;
+    height: 20rem;
+    width: 18rem;
+    font-size: 1rem;
+}
+.contact-icon{
+    height:8rem;
+    width: 8rem;
+    border-radius: 50%;
+    background-color: #3e64ff;
+    line-height: 8rem;
+}
