@@ -7,7 +7,7 @@ new Typed('#typed',{
 
   new Typed('#typed2',{
     strings : ['Thakur'],
-    typeSpeed : 75,
-    delaySpeed : 110,
+    typeSpeed : 325,
+    delaySpeed : 90,
     loop : true
   });
