@@ -1,6 +1,6 @@
 new Typed('#typed',{
     strings : ['Web devloper', 'Web Designer'],
-    typeSpeed : 160,
+    typeSpeed : 100,
     delaySpeed : 1100,
     loop : true
   });
@@ -8,6 +8,6 @@ new Typed('#typed',{
   new Typed('#typed2',{
     strings : ['Thakur'],
     typeSpeed : 325,
-    delaySpeed : 70,
+    delaySpeed : 80,
     loop : true
   });
